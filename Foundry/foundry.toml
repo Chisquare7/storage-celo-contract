@@ -1,6 +1,7 @@
-rpc_endpoints = {celo_alfajores = "${CELO_ALFAJORES_RPC_URL}"}
 
 [profile.default]
+rpc_endpoints = {celo_alfajores = "${CELO_ALFAJORES_RPC_URL}"}
+etherscan_api_key = "${ETHERSCAN_API_KEY}"
 src = "src"
 out = "out"
 libs = ["lib"]
