@@ -1,3 +1,5 @@
+rpc_endpoints = {celo_alfajores = "${CELO_ALFAJORES_RPC_URL}"}
+
 [profile.default]
 src = "src"
 out = "out"
